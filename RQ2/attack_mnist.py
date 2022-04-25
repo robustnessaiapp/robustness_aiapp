@@ -47,7 +47,7 @@ classifier = get_train_model(model, x_train, y_train, batch_size, nb_epochs, 'le
 
 
 def fgm_x_adv(classifier):
-    attack = FastGradientMethod(estimator=classifier, eps=0.1)  # eps 值越大，攻击越大，一般eps=0.1
+    attack = FastGradientMethod(estimator=classifier, eps=0.1)  
     x_test_adv = attack.generate(x=x_test)
     x_train_adv = attack.generate(x=x_train)
     output = open('fsgm_x_test_adv.pkl', 'wb')

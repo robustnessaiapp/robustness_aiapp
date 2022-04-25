@@ -99,7 +99,7 @@ classifier = get_train_model(model, x_train, y_train, 64, 10, 'cnn.h5')
 
 
 def fgm_x_adv(classifier):
-    attack = FastGradientMethod(estimator=classifier, eps=0.1)  # eps 值越大，攻击越大，一般eps=0.1
+    attack = FastGradientMethod(estimator=classifier, eps=0.1)  
     x_test_adv = attack.generate(x=x_test)
     output = open('fsgm_x_test_adv.pkl', 'wb')
     pickle.dump(x_test_adv, output, protocol=4)

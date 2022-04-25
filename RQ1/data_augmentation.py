@@ -41,7 +41,7 @@ def augmentation_random_translation(img, label):
     for i in range(number):
         batch = it.next()
         image = batch[0].astype('float')
-        random_translational_data.append(image)  # 获取数据集
+        random_translational_data.append(image) 
     label_list = [label] * number
     return random_translational_data, label_list
 

@@ -192,7 +192,7 @@ import numpy as np
 import tensorflow.keras.backend as K
 from tensorflow.keras.losses import binary_crossentropy, categorical_crossentropy
 
-## 耗时30分钟
+
 def EGL_compute(model, unlabeled, n_classes):
     model(tf.keras.Input((model.input_shape[-3], model.input_shape[-2], model.input_shape[-1])))
     input_placeholder = K.placeholder(model.get_input_shape_at(0))

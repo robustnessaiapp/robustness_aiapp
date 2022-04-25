@@ -112,7 +112,7 @@ if __name__ == '__main__':
     print('====================================')
     all_x_train, all_x_test, all_y_train, all_y_test = train_test_split(all_data, all_label, test_size=0.2, random_state=5)
     print('====================================')
-    bim_data, fsgm_data, newf_data, patch_data, pgd_data, sa_data = get_attack_data()   # (9379, 300, 300, 3)
+    bim_data, fsgm_data, newf_data, patch_data, pgd_data, sa_data = get_attack_data()   
     print('====================================')
     bim_x_train, bim_x_test, bim_y_train, bim_y_test = train_test_split(bim_data, attack_label, test_size=0.2, random_state=5)
     print('====================================')

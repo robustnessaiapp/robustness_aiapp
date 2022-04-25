@@ -61,7 +61,7 @@ def get_augmentation_data():
 
 
 def get_attack_data():
-    bim_data = read_data_attack('bim_x_adv.pkl')  # (9379, 300, 300, 3)
+    bim_data = read_data_attack('bim_x_adv.pkl')  
     fsgm_data = read_data_attack('fsgm_x_adv.pkl')
     newf_data = read_data_attack('newf_x_adv.pkl')
     patch_data = read_data_attack('patch_x_adv.pkl')

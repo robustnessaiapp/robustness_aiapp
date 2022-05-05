@@ -7,7 +7,7 @@
 ## Fashion MNIST
 [https://www.kaggle.com/datasets/zalando-research/fashionmnist](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
 ## Dog images
-[https://www.kaggle.com/datasets/robustnessaiapp/dog-breed-identifier?select=dog.pkl](https://www.kaggle.com/datasets/robustnessaiapp/dog-breed-identifier?select=dog.pkl/)  
+[https://www.kaggle.com/datasets/robustnessaiapp/dog-breed-identifier](https://www.kaggle.com/datasets/robustnessaiapp/dog-breed-identifier/)  
 Requesting the dataset for the AI App - A Dog Breed Identifier requires the two steps:  
 (1) download the dog.pkl.   
 (2) run data_augmentation.py file to save the dataset automatically.  

@@ -7,4 +7,4 @@
 ## Fashion MNIST
 [https://www.kaggle.com/datasets/zalando-research/fashionmnist](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
 ## Dog images
-[https://www.kaggle.com/datasets/robustnessaiapp/dog-breed-identifier?select=dog.pkl](https://www.kaggle.com/datasets/robustnessaiapp/dog-breed-identifier?select=dog.pkl/)
+[https://www.kaggle.com/datasets/robustnessaiapp/dog-breed-identifier](https://www.kaggle.com/datasets/robustnessaiapp/dog-breed-identifier)

@@ -10,7 +10,7 @@
 [https://www.kaggle.com/datasets/robustnessaiapp/dog-breed-identifier](https://www.kaggle.com/datasets/robustnessaiapp/dog-breed-identifier/)  
 Requesting the dataset for the AI App - A Dog Breed Identifier requires the two steps:  
 (1) download the dog.pkl.   
-(2) run data_augmentation.py file to save the dataset automatically.  
+(2) run data_augmentation.py(in RQ1) file to save the dataset automatically.  
 
 # Environment
 python: 3.7.2  
